@@ -5,8 +5,8 @@ MetaHN will be a subtle yet powerful chrome extension for hacker news. It will b
 
 Design wise, the goal is to interfere as little as possible with the existing HN.  So any links should look like HN links, buttons like HN buttons etc.  There should be very few changes to the interface (unless they make total sense) outside of the dropdown.
 
-1. installing dev build to chrome
-*some instructions here*
+1. installing dev build to chrome 
+https://developer.chrome.com/extensions/getstarted.html
 
 2. features & development plan
 a.  notifications dropdown & html5 notification integration
