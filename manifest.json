@@ -1,0 +1,13 @@
+{
+  "name": "My First Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "The first extension that I made.",
+  "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/*"],
+      "css": ["css/bootstrap.min.css"],
+      "js": ["jquery.js","bootstrap.min.js","content.js"]
+    }
+  ]
+}
