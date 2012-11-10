@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 	var xxx = $(dd);
 
-	xxx.find("a").click(function(){
+	xxx.find("a").attr("href","#").click(function(){
 		$('ul.dropdown-menu').toggle();
 		$('.label-yc').toggleClass("n-active");
 		//$('.label-yc').css({"background":"white","color":"#ff6600"});
